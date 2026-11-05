@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NORACTION — Fotografia</title>
+<meta name="description" content="NORACTION — portfólio de fotografia esportiva e ensaios. Explore os álbuns e veja cada foto em tela cheia.">
+<meta property="og:title" content="NORACTION — Fotografia"><meta property="og:type" content="website">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0a'/%3E%3Ctext x='32' y='46' font-size='40' font-family='sans-serif' font-weight='800' fill='%23e8d8b0' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.cortina{display:none}</style></noscript>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<div id="cortina" class="cortina on"><img src="img/logo.png" alt="NorAction — Fotografia Esportiva"></div>
+<div class="prog" id="prog"></div>
+<header class="top" id="top"><a href="#/" class="logo">NORACTION</a>
+<nav>
+  <a href="#/">Início</a>
+  <a href="#/albuns">Álbuns</a>
+  <a href="#/sobre">Sobre</a>
+  <a href="#/contato">Contato</a>
+</nav></header>
+<main id="app"></main>
+<div id="lb" class="lb" hidden>
+<button class="lb-x" aria-label="Fechar">✕</button>
+<button class="lb-f" aria-label="Tela cheia do navegador">⛶</button>
+<button class="lb-p" aria-label="Anterior">‹</button>
+<img id="lb-img" alt=""><video id="lb-vid" controls playsinline hidden></video><button class="lb-n" aria-label="Próxima">›</button>
+<div id="lb-c" class="lb-c"></div>
+<div id="lb-t" class="lb-t"></div></div>
+<script src="js/albums.js"></script>
+<script src="js/app.js"></script>
+</body></html>

@@ -1,0 +1,12 @@
+/* Webfont: Broaven-Oblique */@font-face {
+    font-family: 'Broaven';
+    src: url('Broaven Oblique.eot'); /* IE9 Compat Modes */
+    src: url('Broaven Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Broaven Oblique.woff') format('woff'), /* Modern Browsers */
+         url('Broaven Oblique.woff2') format('woff2'), /* Modern Browsers */
+         url('Broaven Oblique.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
